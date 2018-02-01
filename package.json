@@ -1,10 +1,7 @@
 {
-    "name": "class",
+    "name": "SQA06",
     "version": "1.0.0",
-    "description": "system integration testing framework",
-    "bin": {
-        "eslint": "bin/eslint"
-    },
+    "description": "SQA06 web automation framework",
     "dependencies": {
         "webdriverio": "4.7.1",
         "selenium-standalone": "5.9.0"
