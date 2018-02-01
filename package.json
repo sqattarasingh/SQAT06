@@ -1,0 +1,12 @@
+{
+    "name": "class",
+    "version": "1.0.0",
+    "description": "system integration testing framework",
+    "bin": {
+        "eslint": "bin/eslint"
+    },
+    "dependencies": {
+        "webdriverio": "4.7.1",
+        "selenium-standalone": "5.9.0"
+    }
+}
