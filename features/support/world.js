@@ -1,16 +1,16 @@
 const { setWorldConstructor } = require('cucumber')
+const { setDefaultTimeout } = require('cucumber');
+setDefaultTimeout(60 * 1000);
+const webdriverio = require('webdriverio');
+const options = { desiredCapabilities: { browserName: 'chrome' } };
 
 class CustomWorld {
   constructor() {
-    this.variable = 0
+    this.browser = webdriverio.remote(options);
   }
 
-  setTo(number) {
-    this.variable = number
-  }
-
-  incrementBy(number) {
-    this.variable += number
+  goToWebsite() {
+    return this.browser.init().url('https://duckduckgo.com/');
   }
 }
 
