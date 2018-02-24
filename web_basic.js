@@ -1,18 +1,8 @@
 "use strict";
 
 const webdriverio = require('webdriverio');
-const options = { 
-            port: 4723,
-            address: "127.0.0.1",
-            desiredCapabilities: {
-            
-            port: 4723,
-            address: "127.0.0.1",
-            commandTimeout: "9000000",
-            platformName: "Android",
-            browserName: "chrome",
-            deviceName: "Android Emulator",
- } };
+const options = { desiredCapabilities: { browserName: 'chrome' } };
+
 const client = webdriverio.remote(options);
 
 client
