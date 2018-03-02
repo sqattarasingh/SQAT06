@@ -42,7 +42,7 @@ Given('I go to figure1', function(callback) {
 When('I sign up with valid credentials', function(callback) {
   this.browser
     .waitForVisible('.register-page__username-input')
-    .setValue('.register-page__username-input', 'ghjghjsdfgjdfgdfjh')
+    .setValue('.register-pag__username-input', 'ghjghjsdfgjdfgdfjh')
     .setValue('.register-page__email-input', 'ghjghjsdfgjdfgdfjh@gmail.com')
     .setValue('.register-page__password-input', 'ghjghjsdfgjdfgdfjh')
     .setValue('.register-page__confirm-password-input', 'ghjghjsdfgjdfgdfjh')
