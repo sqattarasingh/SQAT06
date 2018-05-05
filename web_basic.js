@@ -33,8 +33,7 @@ client
    .addValue('.register-page__specialties-list','Physician')
    .addValue('.register-page__specialties-other-list','My specialty is')
 
-
-   //check box
+   
    .scroll('.register-page__terms-checkbox')
    .click('.register-page__terms-checkbox')
 

@@ -87,8 +87,6 @@ The following testing tools needs to be downloaded onto your local computer
         10) Once the first line of JavaScript code is successfully ran, you will edit the next line of code and run again.\
 
         NOTE: Step 9 - step 10 should be repeated until all the codesare completely ran in the test cases
-
-
 ++ The README.md file is an introduction of what was thought to me in our class SQAT06 class my our Teacher Mr. Izzy ++
 
 5. Pushing of the codes to your GitHub project repository
