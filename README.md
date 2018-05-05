@@ -110,9 +110,10 @@ The following testing tools needs to be downloaded onto your local computer
 
 5. In the command line enter "git commit -m "message". (This will push any commits made on your local environment to the          remote repository)
 
-6. Now using GitHub account in your project repository after you have pushed successfully
-      Check Code/commits,to verify the new pushed commits are listed
+6.  'git push tara master'
 
+7. Now using GitHub account in your project repository after you have pushed successfully
+      Check Code/commits,to verify the new pushed commits are listed
 
 
 
