@@ -1,5 +1,5 @@
 # SQAT06 - test
-++ My first assignment for SQAT 006 Software Quality Assurance and Testing. Testing of the web application for the registration page of "figure 1"  using open source tools such as Selenium Standalone, Web Driver, Cmkkwucumber Framework, Chai Framework, GitHub, Node JS, and Windows OS. This is completed by Nandani Ramnaraine-Singh, student number 300930639 ++
+++ My first assignment for SQAT 006 Software Quality Assurance and Testing. Testing of the web application for the registration page of "figure 1"  using open source tools such as Selenium Standalone, Web Driver, Cucumber Framework, Chai Framework, GitHub, Node JS, and Windows OS. This is completed by Nandani Ramnaraine-Singh, student number 300930639 ++
 
 
 1. The purpose of this test is to test the web application: "Figure 1" using the URL listed below
