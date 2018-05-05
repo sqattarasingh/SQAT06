@@ -63,6 +63,8 @@ The following testing tools needs to be downloaded onto your local computer
 
            git clone https://github.com/IzzatBamieh/SQAT06.git
 
+           Click on 'Fork' button in the github web browser gui of the 'IzzatBamieh/SQAT06' It creates an exact copy of 'IzzatBamieh/SQAT06' onto my 'sqattarasingh/SQAT06' repository
+
            Now use the command line
            dir - This will check the SQAT06 environment is cloned successfully
 
@@ -104,9 +106,15 @@ The following testing tools needs to be downloaded onto your local computer
 
      "git remote -v"
 
+C:\Users\Vanan\SQAT06>git remote -v
+origin  https://github.com/IzzatBamieh/SQAT06.git (fetch)
+origin  https://github.com/IzzatBamieh/SQAT06.git (push)
+tara    https://github.com/sqattarasingh/SQAT06.git (fetch)
+tara    https://github.com/sqattarasingh/SQAT06.git (push)
+
      This will confirm whether your account was added successfully
 
-   4) Now using command line type " git add -p" (This will add or modift any contents in the working tree interactively to the       index)
+   4) Now using command line type " git add -p" (This will add or modify any contents in the working tree interactively to the       index)
 
 5. In the command line enter "git commit -m "message". (This will push any commits made on your local environment to the          remote repository)
 
