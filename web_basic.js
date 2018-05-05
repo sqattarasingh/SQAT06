@@ -45,8 +45,11 @@ client
     console.log(error);
 })
 
-.getTest(".invalid-field") .then((element) {
-  element.should.equal('Please select a valid speciality')
+.getTitle().then(function(title) {
+    console.log('Title is: ' + title);
+})
+.catch(function(err){
+    console.log(err)
 
 })
 .end()
