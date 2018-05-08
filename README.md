@@ -122,6 +122,40 @@ tara    https://github.com/sqattarasingh/SQAT06.git (push)
       Check Code/commits,to verify the new pushed commits are listed
 
 
+      +++++++++++++++++++++++  TESTING OF WEB APPLICATION FIGURE1 REGISTRATION FORM IN CUCUMBER SOFTWARE USING SELENIUM TOOL  ++++++++++++++++++++++++++++
+
+(1) Open Command Prompt and start the Selenium server using command:Selenium-standalone start
+
+(2) Open another Command Prompt and change drive to SQAT06 by using command: cd SQAT06
+
+(3) Open Visual Studio Code application on your computer and then go to File->Open File-> Select all file under folder 'SQAT06' and click on Open button. Under SQAT06 folder, open folder feature ->open support sub-folder, which conatins:
+(a) hooks.js-Hooks are used for setup and teardown the environment before and after each scenario.
+(b) steps.js-This file contains code to execute all steps written in scenario.
+(c) world.js-World is an isolated context for each scenario, exposed to the hooks and steps.
+(d) scenario.feature-A feature file can contain a scenario or can contain many scenarios in a single feature file but it usually contains a list of scenarios.
+
+
+
+All files are required to work in cucumber. 
+
+(4) Write Scenarios to test for registration of Figure1 web application in simple English Language in (GIVEN,WHEN,THEN) form in scenario.feature file under feature folder.
+
+(5) Write code inside steps.js file to execute all steps written in scenario.feature file. Save the code written.
+
+(6) Write code to assert any element which should be visible or exist on resulting registered account web page in steps.js using chai. 
+
+(7) Run the code written in steps.js one by one as per steps written in scenario.feature file in command prompt using command: .\node_modules\.bin\cucumber-js
+
+(8) If your code run sucessfully, you should see your account is registered on figure1 website and scenario and all steps under it should be pass. 
+
+(9) Push the code changed in step.js,scenario.feature file under feature folder and read me file by using steps specified above(push) in the readme file.
+
+(10) Pull the request on github to share the updated code-For this, do the following:
+
+Click on New pull request under your github account-> Write the comment for the commit-> click on create pull request.It will share your updated code to the person whom you made the pull request.
+
+
+
 
 
 

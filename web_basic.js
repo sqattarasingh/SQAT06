@@ -10,14 +10,14 @@ client
     .url('https://app.figure1.com/account/register')
     .waitForVisible(".register-page__username-input")
 
-    .setValue('.register-page__username-input','tara')
+    .setValue('.register-page__username-input',Math.random().toString(36).substring(7))
     .catch(function(error){
         console.log(error);
     })
    // .setValue('.register-page__email-input',Math.random().toString(36).substring(7) +"@gmail.com")
     
    // })
-   .setValue('.register-page__email-input','tara@gmail.com')
+   .setValue('.register-page__email-input',Math.random().toString(36).substring(7) +"@gmail.com")
    .catch(function(error){
        console.log(error);
    })
@@ -31,8 +31,8 @@ client
    })   
 
    .addValue('.register-page__specialties-list','Physician')
-   .addValue('.register-page__specialties-other-list','My specialty is')
-
+   .addValue('.register-page__specialties-other-list', 'Critical Care')
+   
    
    .scroll('.register-page__terms-checkbox')
    .click('.register-page__terms-checkbox')
@@ -51,5 +51,5 @@ client
     console.log(err)
 
 })
-.end()
+//.end()
     

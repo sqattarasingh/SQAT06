@@ -1,9 +1,20 @@
-Feature: Simple maths
-  In order to do maths
+Feature: Registering of a user
   As a developer
-  I want to increment variables
+  I want to register a new user
 
-  Scenario: easy maths
-    Given I go to duck duck go
-    When  I search for WebdriverIO
-    Then  I should see the search results
+  Scenario: Sign up a new user
+  Given I go to figure 1 web site
+  When I enter user name
+  And I enter email address
+  And I enter a password
+  And I confirm password
+  And I select specialties-list
+  And I select specialties-other-list
+  And I agree to term agreement
+  And I click on submit
+  Then I should see home logo
+  
+  
+ 
+    
+  
